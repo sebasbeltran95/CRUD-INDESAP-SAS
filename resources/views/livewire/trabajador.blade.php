@@ -147,8 +147,8 @@
                                         <label class="@error('estadox') text-danger @enderror">Estado</label>
                                         <select class="form-select @error('estadox') is-invalid @enderror" wire:model="estadox">
                                             <option value="">Seleccione...</option>
-                                            <option value="Activo">Activo</option>
-                                            <option value="Inactivo">Inactivo</option>
+                                            <option value="1">Activo</option>
+                                            <option value="0">Inactivo</option>
                                         </select>
                                         <i class="text-danger">
                                             @error('estadox') {{ $message }} @enderror
